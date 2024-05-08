@@ -9,8 +9,11 @@ Instructions to run the project.
    Navigate to the project directory in your terminal and run the following commands to install the required dependencies from the package.json file:
    
    npm install
+   
    npm i --save-dev @playwright/test
+   
    npx playwright install chromium
+   
    npx playwright install firefox
    
 5. Run the Test Script:
