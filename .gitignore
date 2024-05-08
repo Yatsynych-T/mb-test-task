@@ -1,5 +1,5 @@
 TASK_2/node_modules/
 TASK_2/test-results/
 TASK_2/playwright-report/
-TASK_2//blob-report/
-TASK_2//playwright/.cache/
+TASK_2/blob-report/
+TASK_2/playwright/.cache/
