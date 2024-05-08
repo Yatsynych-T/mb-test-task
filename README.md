@@ -17,5 +17,12 @@ Instructions to run the project.
    npx playwright install firefox
    
 5. Run the Test Script:
-   After dependencies installation, run the following test script to execute tests in Chrome and Firefox:
+   After dependencies installation, run the following test script to execute tests in Chrome and Firefox headlessly in parallel:
+   
    npm run testChromeFirefox
+
+   -Or in headed mode:
+
+   npm run testChromeHeaded
+
+   npm run testFirefoxHeaded
