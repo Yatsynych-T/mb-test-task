@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "testChromeFirefox": "npx playwright test --project chromium --project firefox"
+    "testChromeFirefox": "npx playwright test --project chromium --project firefox",
+    "testChromeHeaded": "npx playwright test --project chromium --headed",
+    "testFirefoxHeaded": "npx playwright test --project firefox --headed"
   },  
   "keywords": [],
   "author": "",
