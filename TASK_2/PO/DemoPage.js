@@ -79,6 +79,7 @@ export class DemoPage extends BasePage {
         await this.expectValuesToBeEqual(pricesInNumbers, sortedPrices);
     }
 
+    // Returns an array of vehicle prices present on the current page
     async getAllVehiclesPrices(){
         await this.waitForTheElementToBeLoaded(this.firstVehiclePrice);
         await this.waitForPageToLoad();
@@ -89,6 +90,10 @@ export class DemoPage extends BasePage {
         await this.clickOn(this.firstVehicleCard);
     }
 
+    /*
+     * Sorts the vehicles by price descending, then
+     * opens the details page of the first vehicle in the list
+     */
     async openMostExpensiveVehicleDetails(){
         await this.sortVehiclesBy(SORTING_OPTIONS.priceDescending);
         await this.openFirstVehicleDetails();
